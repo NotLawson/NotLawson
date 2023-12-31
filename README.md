@@ -1,11 +1,10 @@
-# Hi there 👋
+# Ahoy there!
 
-I'm NotLawson. Fluent in Python and ok (i guess) at Arduino.
-My favourite types of projects generally are a sort of Home Automation project
+<i>"You have arrived."</i>
 
-You can contact me at lawson.conallin@gmail.com
+Student, Python Developer, Basketballer, Cricketer, Rocket Leaguer and person of average intelligence. Ohh, and avid Australian.
 
-Thanks!
+Discord: NotLawson
+Email: lawson.conallin@gmail.com
 
-## Links
-<a rel="me" href="https://social.vivaldi.net/@NotLawson">Mastodon</a>
+Cheers
