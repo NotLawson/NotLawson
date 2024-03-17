@@ -1,4 +1,6 @@
 # Ahoy there!
+<title>NotLawson</title>
+
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=notlawson&show_icons=true)
 <br>
 <i>"You have arrived."</i>
