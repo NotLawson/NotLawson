@@ -1,0 +1,21 @@
+h1, h2, p, a, li {
+    font-family: sans-serif;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: orange;
+}
+
+body {
+    padding: 10%, 10%, 10%, 10%;
+    color: rgb(244, 244, 244);
+}
+
+#footer {
+    font-size: xx-small;
+    color: rgb(220, 220, 220);
+}

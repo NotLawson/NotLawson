@@ -1,2 +1,14 @@
 <!--For Caddy to serve the README-->
-{{include "README.md" | markdown}}
+<html>
+    <head>
+        <title>README.md - NotLawson</title>
+        <link rel="stylesheet" href="/files/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        {{include "README.md" | markdown}}
+    </body>
+    <footer>
+        <p class="footer">Not copyright, but bugger off you scoundrel!</p>
+    </footer>
+</html>
