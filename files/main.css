@@ -1,6 +1,11 @@
-h1, h2, p, a, li {
+h1, h2, h3, p, a, li {
     font-family: sans-serif;
     color: black;
+}
+
+h2, h3 {
+    font-style: italic;
+    text-decoration: underline wavy blue 5px;
 }
 
 a {
