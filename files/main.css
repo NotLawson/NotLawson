@@ -1,11 +1,10 @@
 h1, h2, h3, p, a, li {
     font-family: sans-serif;
-    color: black;
+    color: white;
 }
 
-h2, h3 {
+h1, h2, h3 {
     font-style: italic;
-    text-decoration: underline dotted red;
 }
 
 a {
@@ -16,13 +15,45 @@ a:hover {
     color: orange;
 }
 
-body {
-    margin: 100, 100, 100, 100;
-    color: rgb(244, 244, 244);
-    line-height: 200%;
-}
 
 .footer {
     font-size: xx-small;
     color: rgb(220, 220, 220);
+}
+
+body {
+  background-color: black;
+  background-image: radial-gradient(
+    rgba(0, 150, 0, 0.75), black 120%
+  );
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  padding: 2rem;
+  color: white;
+  font: 1.3rem Inconsolata, monospace;
+  text-shadow: 0 0 5px #C8C8C8;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(black, 0.15),
+      rgba(black, 0.15) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+    pointer-events: none;
+  }
+}
+::selection {
+  background: #0080FF;
+  text-shadow: none;
+}
+pre {
+  margin: 0;
 }
