@@ -28,7 +28,6 @@ body {
   );
   height: 100vh;
   margin: 0;
-  overflow: hidden;
   padding: 2rem;
   color: white;
   font: 1.3rem Inconsolata, monospace;
@@ -38,7 +37,6 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
     height: 100vh;
     background: repeating-linear-gradient(
       0deg,
