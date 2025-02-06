@@ -4,7 +4,7 @@ const example_item = document.getElementById("exampleitem");
 
 
 async function get_config() {
-    return await fetch("/projects/projects.json").then(response => response.json());
+    return await fetch("/projects/projects.json").then(response => response.json())
 }
 const config = get_config();
 
