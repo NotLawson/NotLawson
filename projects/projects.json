@@ -1,0 +1,116 @@
+{
+    "catergories":{
+        "maintained":{
+            "friendly":"Maintained",
+            "priority":0
+        },
+        "unmaintained":{
+            "friendly":"Unmaintained",
+            "priority":1
+        },
+        "inprogress":{
+            "friendly":"In Progress",
+            "priority":2
+        },
+        "abandoned":{
+            "friendly":"Abandoned",
+            "priority":3
+        },
+        "idea":{
+            "friendly":"Ideas",
+            "priority":4
+        }   
+    },
+    "projects":{
+        "rainfall":{
+            "name":"Rainfall Tracker",
+            "git":"https://github.com/NotLawson/rainfall-tracker",
+            "website":"none",
+            "latest":"v1.1.0",
+            "status":"maintained",
+            "shortDesc":"Rainfall Tracker for Cooran",
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/rainfall-tracker/refs/heads/main/README.md"
+        },
+        "quizzle":{
+            "name":"Quizzle",
+            "git":"https://github.com/NotLawson/premierscodingchallenge",
+            "website":"https://premiers.thatrandompi.xyz",
+            "latest":"v1.0.2",
+            "status":"maintained",
+            "shortDesc":"My Winning submission to the 2024 Premiers Coding Challenge",
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/premierscodingchallenge/refs/heads/main/README.md"
+        },
+        "absentee":{
+            "name":"Absentee App",
+            "git":"https://github.com/NotLawson/absentee_app",
+            "website":"none",
+            "latest":"untagged",
+            "status":"unmaintained",
+            "shortDesc":"An assesment piece for Digital Technology using Tensorflow",
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/absentee_app/refs/heads/main/README.md"
+        },
+        "chess":{
+            "name":"Chess Robot",
+            "git":"https://github.com/NotLawson/STEM_chess_robot",
+            "website":"none",
+            "latest":"untagged",
+            "status":"unmaintained",
+            "shortDesc":"Chess Robot for STEM",
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/STEM_chess_robot/refs/heads/master/README.md"
+        },
+        "betterlog":{
+            "name":"BetterLog",
+            "git":"https://github.com/NotLawson/betterlog-python",
+            "website":"none",
+            "latest":"v1.0.0",
+            "status":"unmaintained",
+            "shortDesc":"A custom logging library for Python",
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/betterlog-python/refs/heads/master/README.md"
+        },
+        "orbitalhome":{
+            "name":"Orbital Home",
+            "git":"https://github.com/NotLawson/Orbital-Home",
+            "website":"none",
+            "latest":"untagged",
+            "status":"abandoned",
+            "shortDesc":"A home automation project I made when I was 11",
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/Orbital-Home/refs/heads/master/README.md"
+        },
+        "lanman":{
+            "name":"LANMan",
+            "git":"https://github.com/NotLawson/LANMan",
+            "website":"none",
+            "latest":"untagged",
+            "status":"inprogress",
+            "shortDesc":"Manage a fleet of gaming computers for LAN parties, tournaments etc",
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/LANMan/refs/heads/master/README.md"
+        },
+        "battlestats":{
+            "name":"BattleStats",
+            "git":"https://github.com/NotLawson/battlestats",
+            "website":"none",
+            "latest":"untagged",
+            "status":"inprogress",
+            "shortDesc":"A stats and info app for BattleTabs",
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/battlestats/refs/heads/master/README.md"
+        },
+        "projected":{
+            "name":"Projected",
+            "git":"https://github.com/NotLawson/projected",
+            "website":"none",
+            "latest":"idea",
+            "status":"idea",
+            "shortDesc":"Project setup and management from a development perspective",
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/projected/refs/heads/master/README.md"
+        },
+        "whiteboard":{
+            "name":"Whiteboard",
+            "git":"https://github.com/NotLawson/whiteboard",
+            "website":"none",
+            "latest":"idea",
+            "status":"idea",
+            "shortDesc":"Smart board OS for schools and business",
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/whiteboard/refs/heads/master/README.md"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+div.code {
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+pre, xmp {
+    white-space: pre-wrap;
+}
