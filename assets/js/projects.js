@@ -4,9 +4,9 @@ const example_item = document.getElementById("exampleitem");
 
 
 async function get_config() {
-    var config = await fetch("/projects/projects.json").then(response => response.json());
+    return await fetch("/projects/projects.json").then(response => response.json());
 }
-get_config();
+const config = get_config();
 
 var dict = {
     "key":"val",
