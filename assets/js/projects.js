@@ -6,6 +6,9 @@ var categories;
 var categories_json;
 var projects;
 
+//other
+var val;
+
 async function main() {
 
 
@@ -19,7 +22,7 @@ Object.keys(categories).forEach(function (key) {
 
 projects = config.projects;
 Object.keys(projects).forEach(function (key) {
-    var val = projects[key];
+    val = projects[key];
     categories_json[val.category].push(key);
 })
 
@@ -43,4 +46,6 @@ Object.keys(categories).forEach(function (key) {
     projects_div.appendChild(new_category)
 
 })
-}
+};
+
+main();
