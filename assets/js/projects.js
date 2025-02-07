@@ -2,17 +2,11 @@ const projects_div = document.getElementById("projects");
 const example_category = document.getElementById("examplecategory");
 const example_item = document.getElementById("exampleitem");
 
-
+var config;
 async function get_config() {
-    var conf = await fetch("/projects/projects.json").then(response => response.json());
-    return conf;
-}
-const config = get_config();
-
-var dict = {
-    "key":"val",
-    "another":"another"
+    await fetch("/projects/projects.json").then(response => response.json()).then((responseJSON) => {config = responseJSON;});
 };
+get_config();
 
 const categories = config.categories;
 var categories_json = {};
