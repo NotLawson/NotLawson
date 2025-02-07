@@ -1,19 +1,23 @@
-async function main() {
-
 const projects_div = document.getElementById("projects");
 const example_category = document.getElementById("examplecategory");
 const example_item = document.getElementById("exampleitem");
-
 var config;
+var categories;
+var categories_json;
+var projects;
+
+async function main() {
+
+
 await fetch("/projects/projects.json").then(response => response.json()).then((responseJSON) => {config = responseJSON;});
 
-const categories = config.categories;
-var categories_json = {};
+categories = config.categories;
+categories_json = {};
 categories.keys.forEach(function (key) {
     categories_json[key] = [];
 })
 
-const projects = config.projects;
+projects = config.projects;
 projects.keys.forEach(function (key) {
     var val = projects[key];
     categories_json[val.category].push(key);
