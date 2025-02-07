@@ -23,7 +23,7 @@ Object.keys(categories).forEach(function (key) {
 projects = config.projects;
 Object.keys(projects).forEach(function (key) {
     val = projects[key];
-    categories_json[val.category].push(key);
+    categories_json[val.status].push(key);
 })
 
 
