@@ -1,12 +1,11 @@
+async function main() {
+
 const projects_div = document.getElementById("projects");
 const example_category = document.getElementById("examplecategory");
 const example_item = document.getElementById("exampleitem");
 
 var config;
-async function get_config() {
-    await fetch("/projects/projects.json").then(response => response.json()).then((responseJSON) => {config = responseJSON;});
-};
-get_config();
+await fetch("/projects/projects.json").then(response => response.json()).then((responseJSON) => {config = responseJSON;});
 
 const categories = config.categories;
 var categories_json = {};
@@ -40,3 +39,4 @@ categories.keys.forEach(function (key) {
     projects_div.appendChild(new_category)
 
 })
+}
