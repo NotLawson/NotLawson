@@ -34,16 +34,16 @@ Object.keys(categories).forEach(function (key) {
 
     var new_category = example_category.cloneNode("true");
     new_category.removeAttribute("hidden");
-    new_category.childNodes[0].innerHTML = val.friendly;
+    new_category.childNodes[0].innerHTML = cat_config.friendly;
     
     cat_list.forEach(function (key) {
         var item_config = projects[key];
         var new_item = example_item.cloneNode(true);
         new_item.childNodes[0].setAttribute("href", "/projects/info?project="+key)
         new_item.childNodes.innerHTML = item_config.name
-        new_category.appendChild(new_item)
+        new_category.childNodes[1].append(new_item)
     })
-    projects_div.appendChild(new_category)
+    projects_div.append(new_category)
 
 })
 };
