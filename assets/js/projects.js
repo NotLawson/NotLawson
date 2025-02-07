@@ -13,19 +13,19 @@ await fetch("/projects/projects.json").then(response => response.json()).then((r
 
 categories = config.categories;
 categories_json = {};
-categories.keys.forEach(function (key) {
+Object.keys(categories).forEach(function (key) {
     categories_json[key] = [];
 })
 
 projects = config.projects;
-projects.keys.forEach(function (key) {
+Object.keys(projects).forEach(function (key) {
     var val = projects[key];
     categories_json[val.category].push(key);
 })
 
 
 // create html
-categories.keys.forEach(function (key) {
+Object.keys(categories).forEach(function (key) {
     var cat_config = categories[key];
     var cat_list = categories_json[key];
 
