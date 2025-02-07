@@ -32,19 +32,15 @@ Object.keys(categories).forEach(function (key) {
     var cat_config = categories[key];
     var cat_list = categories_json[key];
 
-    var new_category = example_category.cloneNode("true");
-    new_category.removeAttribute("hidden");
-    new_category.childNodes[0].innerHTML = cat_config.friendly;
+    var new_category_html = '<div><h2>' + cat_config.friendly '</h2><ul>'
     
     cat_list.forEach(function (key) {
         var item_config = projects[key];
-        var new_item = example_item.cloneNode(true);
-        new_item.childNodes[0].setAttribute("href", "/projects/info?project="+key)
-        new_item.childNodes.innerHTML = item_config.name
-        new_category.childNodes[1].append(new_item)
+        var new_item = '<li><a href="/projects/info?project='+key+'">'+item_config.name+'</a></li>'
+        new_category_html = new_category_html + new_item
     })
-    projects_div.append(new_category)
-
+    new_category_html = new_category_html + "</ul></div>"
+    projects_div.innerHTML = project_div.innerHTML + new_category_html
 })
 };
 
