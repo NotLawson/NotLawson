@@ -40,7 +40,7 @@ Object.keys(categories).forEach(function (key) {
         new_category_html = new_category_html + new_item
     })
     new_category_html = new_category_html + "</ul></div>"
-    document.getElementById("projects");.innerHTML = document.getElementById("projects");.innerHTML + new_category_html
+    document.getElementById("projects").innerHTML = document.getElementById("projects").innerHTML + new_category_html
 })
 };
 
