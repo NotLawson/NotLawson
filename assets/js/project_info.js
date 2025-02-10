@@ -1,7 +1,7 @@
 var converter = new showdown.Converter()
 var markdown;
 var config;
-const main = document.getElementById("main");
+const main_element = document.getElementById("main");
 
 
 const urlParams = new URLSearchParams(window.location.search);
