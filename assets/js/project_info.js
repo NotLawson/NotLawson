@@ -12,6 +12,7 @@ async function main() {
     var converter = new showdown.Converter();
     document.getElementById("longdesc").innerHTML = converter.makeHtml(markdown);
     document.getElementById("version").innerHTML = config.version;
+    document.getElementById("title").innerHTML = config.name;
     if (config.git === "none") {
         document.getElementById("gh").setAttribute("hidden", "")
     } else {
@@ -23,5 +24,7 @@ async function main() {
     } else {
         document.getElementById("web").setAttribute("href", config.website);
     }
+    main_element.removeAttribute("hidden")
+    document.get()
 }
 main()
