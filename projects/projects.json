@@ -65,7 +65,7 @@
             "latest":"v1.0.0",
             "status":"unmaintained",
             "shortDesc":"A custom logging library for Python",
-            "longDesc":"https://raw.githubusercontent.com/NotLawson/betterlog-python/refs/heads/master/README.md"
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/betterlog-python/refs/heads/main/README.md"
         },
         "orbitalhome":{
             "name":"Orbital Home",
@@ -74,7 +74,7 @@
             "latest":"untagged",
             "status":"abandoned",
             "shortDesc":"A home automation project I made when I was 11",
-            "longDesc":"https://raw.githubusercontent.com/NotLawson/Orbital-Home/refs/heads/master/README.md"
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/Orbital-Home/refs/heads/main/README.md"
         },
         "lanman":{
             "name":"LANMan",
@@ -82,8 +82,8 @@
             "website":"none",
             "latest":"untagged",
             "status":"inprogress",
-            "shortDesc":"Manage a fleet of gaming computers for LAN parties, tournaments etc",
-            "longDesc":"https://raw.githubusercontent.com/NotLawson/LANMan/refs/heads/master/README.md"
+            "shortDescz":"Manage a fleet of gaming computers for LAN parties, tournaments etc",
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/LANMan/refs/heads/main/README.md"
         },
         "battlestats":{
             "name":"BattleStats",
@@ -92,7 +92,7 @@
             "latest":"untagged",
             "status":"inprogress",
             "shortDesc":"A stats and info app for BattleTabs",
-            "longDesc":"https://raw.githubusercontent.com/NotLawson/battlestats/refs/heads/master/README.md"
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/battlestats/refs/heads/main/README.md"
         },
         "projected":{
             "name":"Projected",
@@ -101,7 +101,7 @@
             "latest":"idea",
             "status":"idea",
             "shortDesc":"Project setup and management from a development perspective",
-            "longDesc":"https://raw.githubusercontent.com/NotLawson/projected/refs/heads/master/README.md"
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/projected/refs/heads/main/README.md"
         },
         "whiteboard":{
             "name":"Whiteboard",
@@ -110,7 +110,7 @@
             "latest":"idea",
             "status":"idea",
             "shortDesc":"Smart board OS for schools and business",
-            "longDesc":"https://raw.githubusercontent.com/NotLawson/whiteboard/refs/heads/master/README.md"
+            "longDesc":"https://raw.githubusercontent.com/NotLawson/whiteboard/refs/heads/main/README.md"
         }
     }
 }
