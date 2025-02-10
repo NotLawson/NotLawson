@@ -5,12 +5,11 @@ body {
     padding-right: 25%;
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: antiquewhite;
 }
 
 article {
     text-align: left;
-    border: dashed 1px;
-    border-radius: 10px;
     padding: 10px;
 }
 input {
