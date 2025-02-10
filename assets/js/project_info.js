@@ -11,7 +11,7 @@ async function main() {
     await fetch(config.longDesc).then(response => response.text()).then(response => markdown = response);
     var converter = new showdown.Converter();
     document.getElementById("longdesc").innerHTML = converter.makeHtml(markdown);
-    document.getElementById("version").innerHTML = config.version;
+    document.getElementById("version").innerHTML = config.latest;
     document.getElementById("title").innerHTML = config.name;
     if (config.git === "none") {
         document.getElementById("gh").setAttribute("hidden", "")
