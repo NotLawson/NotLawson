@@ -5,15 +5,15 @@ body {
     padding-right: 25%;
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: #ffcb90;
 }
 
 article {
     text-align: left;
     padding: 10px;
-    border: solid, 2px black;
+    border: solid, 0px black;
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #ffffff80;
 }
 input {
     text-align: center;
