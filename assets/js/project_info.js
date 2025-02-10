@@ -1,4 +1,3 @@
-var converter = new showdown.Converter()
 var markdown;
 var config;
 const main_element = document.getElementById("main");
@@ -10,8 +9,8 @@ var project_id = urlParams.get("project");
 async function main() {
     await fetch("/projects/projects.json").then(response => response.json()).then(response => config = response.projects[project_id]);
     await fetch(config.longDesc).then(response => response.text()).then(response => markdown = response);
-
-    document.getElementById("longdesc").innerHTML = converter.makehtml(markdown);
+    var converter = new showdown.Converter();
+    document.getElementById("longdesc").innerHTML = converter.makeHtml(markdown);
     document.getElementById("version").innerHTML = config.version;
     if (config.git === "none") {
         document.getElementById("gh").setAttribute("hidden", "")
