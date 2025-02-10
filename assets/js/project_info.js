@@ -8,7 +8,7 @@ const urlParams = new URLSearchParams(window.location.search);
 var project_id = urlParams.get("project");
 
 async function main() {
-    await fetch("/projects/projects.json").then(response => response.json()).then(response => config = response[project_id]);
+    await fetch("/projects/projects.json").then(response => response.json()).then(response => config = response.projects[project_id]);
     await fetch(config.longDesc).then(response => response.text()).then(response => markdown = response);
 
     document.getElementById("longdesc").innerHTML = converter.makehtml(markdown);
