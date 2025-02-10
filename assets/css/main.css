@@ -11,6 +11,9 @@ body {
 article {
     text-align: left;
     padding: 10px;
+    border: solid, 5px black;
+    border-radius: 10px;
+    background-color: rgb(255, 198, 198);
 }
 input {
     text-align: center;
