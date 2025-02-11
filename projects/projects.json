@@ -1,23 +1,23 @@
 {
     "categories":{
         "maintained":{
-            "friendly":"Maintained",
+            "friendly":"✅ Maintained",
             "priority":0
         },
         "unmaintained":{
-            "friendly":"Unmaintained",
+            "friendly":"❄️ Unmaintained",
             "priority":1
         },
         "inprogress":{
-            "friendly":"In Progress",
+            "friendly":"🛠️ In Progress",
             "priority":2
         },
         "abandoned":{
-            "friendly":"Abandoned",
+            "friendly":"❌ Abandoned",
             "priority":3
         },
         "idea":{
-            "friendly":"Ideas",
+            "friendly":"💡 Ideas",
             "priority":4
         }   
     },
