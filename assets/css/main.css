@@ -5,7 +5,7 @@ body {
     padding-right: 25%;
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #ffcb90;
+    background-color: #cacaca;
 }
 
 article {
@@ -13,7 +13,7 @@ article {
     padding: 10px;
     border: solid, 0px black;
     border-radius: 10px;
-    background-color: #ffffff80;
+    background-color: rgb(255, 255, 255)
 }
 input {
     text-align: center;
