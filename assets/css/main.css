@@ -34,3 +34,7 @@ kbd {
     color: red;
 }
 
+ul {
+    display: inline-block;
+    text-align: left;
+}
