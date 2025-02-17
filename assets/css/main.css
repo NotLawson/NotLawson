@@ -27,9 +27,10 @@ kbd {
 }
 
 blockquote {
-    border: 2px black;
+    border: 2px black solid;
     border-radius: 10px;
-    background: rgb(190, 190, 190)
+    background: rgb(190, 190, 190);
+    padding: 5px;
 }
 
 pre {
