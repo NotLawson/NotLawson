@@ -9,7 +9,7 @@ body {
 }
 
 article {
-    text-align: center;
+    text-align: left;
     padding: 10px;
     border: solid, 0px black;
     border-radius: 10px;
@@ -19,7 +19,7 @@ input {
     text-align: center;
 }
 
-kbd {
+code, kbd {
     background-color: #f0f0f0;
     border: solid 1px #ccc;
     border-radius: 3px;
