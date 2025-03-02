@@ -32,7 +32,7 @@ Object.keys(categories).forEach(function (key) {
     var cat_config = categories[key];
     var cat_list = categories_json[key];
 
-    var new_category_html = '<div><h2>' + cat_config.friendly + '</h2><ul>'
+    var new_category_html = '<div><b><p>' + cat_config.friendly + '</p></b><ul>'
     
     cat_list.forEach(function (key) {
         var item_config = projects[key];

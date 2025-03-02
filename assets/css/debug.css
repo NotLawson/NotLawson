@@ -1,0 +1,12 @@
+.one, .two {
+    border: 1px red solid;
+}
+.full {
+    border: 1px lightgreen solid;
+}
+.navbar {
+    border: 1px rgb(12, 194, 255) solid;
+}
+article {
+    border: 1px yellow solid;
+}

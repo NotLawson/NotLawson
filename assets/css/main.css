@@ -5,15 +5,12 @@ body {
     padding-right: 15%;
     font-family: "Roboto";
     text-align: center;
-    background-color: #cacaca;
+    background-color: black;
+    color: white;
 }
-
 article {
-    text-align: left;
     padding: 10px;
-    border: solid, 0px black;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255)
+    background-color: black
 }
 input {
     text-align: center;
@@ -22,6 +19,7 @@ input {
 kbd {
     background-color: #f0f0f0;
     border: solid 1px #ccc;
+    color: black;
     border-radius: 3px;
     padding: 2px;
 }
@@ -37,11 +35,12 @@ pre {
     background-color: black;
     border-radius: 5px;
     color: white;
+    border: 1px solid white;
     padding: 5px;
 }
 
 .navlink {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .navlink.selected, .navlink:hover {
@@ -51,4 +50,33 @@ pre {
 ul {
     display: inline-block;
     text-align: left;
+}
+
+.ipaddr {
+    font-style: italic;
+    color: rgb(196, 196, 196);
+    border-bottom: 2px dotted rgb(196, 196, 196);
+    position: relative;
+    display: inline-block;
+}
+
+.ipaddr .tooltip {
+    visibility: hidden;
+    width: 150px;
+    background-color: rgb(86, 86, 86);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-size: medium;
+   
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.ipaddr:hover .tooltip {
+  visibility: visible;
 }
