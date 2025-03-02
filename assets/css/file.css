@@ -4,8 +4,10 @@ div.code {
     padding: 5px;
     color: white;
     background-color: black;
-    text-align: left;
+    
 }
 pre, xmp {
+    text-align: left;
     white-space: pre-wrap;
+    background-color: rgb(95, 95, 95)
 }
