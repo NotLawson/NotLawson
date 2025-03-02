@@ -4,6 +4,7 @@ div.code {
     padding: 5px;
     color: white;
     background-color: black;
+    text-align: left;
 }
 pre, xmp {
     white-space: pre-wrap;
