@@ -10,10 +10,11 @@ body {
 }
 article {
     padding: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: left;
+    align-items: left;
     background-color: black
-}
-input {
-    text-align: center;
 }
 
 kbd {
@@ -25,8 +26,8 @@ kbd {
 }
 
 blockquote {
-    border: 2px black solid;
-    border-radius: 10px;
+    border: 1px black solid;
+    border-radius: 2px;
     background: rgb(190, 190, 190);
     padding: 5px;
 }
@@ -50,36 +51,8 @@ pre {
     color: red;
 }
 
-ul {
-    display: inline-block;
+#term {
+    padding: 10px;
     text-align: left;
 }
 
-.ipaddr {
-    font-style: italic;
-    color: rgb(196, 196, 196);
-    border-bottom: 2px dotted rgb(196, 196, 196);
-    position: relative;
-    display: inline-block;
-}
-
-.ipaddr .tooltip {
-    visibility: hidden;
-    width: 150px;
-    background-color: rgb(86, 86, 86);
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    font-size: medium;
-   
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
-}
-
-.ipaddr:hover .tooltip {
-  visibility: visible;
-}

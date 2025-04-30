@@ -9,34 +9,18 @@
         <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
         <script src="/assets/js/main.js" defer></script>
         <script src="/assets/js/index.js" defer></script>
-        <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const debug = urlParams.get('debug');
-        if (debug==="true") {
-            const link = document.createElement('link');
-            link.rel = 'stylesheet';
-            link.type = 'text/css';
-            link.href = '/assets/css/debug.css';
-            document.head.appendChild(link);
-        }
-        </script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
     </head>
     <body>
-        <div class="navbar">
-            <p><a class="navlink selected" href="/">README</a> | <a class="navlink" href="/projects">Projects</a> | <a class="navlink" href="/assets">Assets</a></p>
+        <div class="navbar" id="navbar" hidden>
+            <p><a class="navlink selected" href="/">Home</a> | <a class="navlink" href="/projects">Projects</a> | <a class="navlink" href="/assets">Assets</a></p>
         </div>
         <article>
-            <span class="full" style="padding-top: 100px;"><b><p style="font-size: 64px;">👋  Hello <span class="ipaddr"><span class="text"></span><span class="tooltip">This is your IP. I don't know your name, so this is what I'm calling you.</span></span>!</p></b></span>
-            <span class="full para1"><p style="font-size:24px">I'm Lawson. Nice to meet you!</p></span>
-            <span class="full para2"><p style="font-size:24px">I'm a 15 year-old Highschool Student in living in Queensland, Australia. I tinker with electronics, home automation, and other general programming projects.</p></span>
-
-            <span class="one para3"><p style="font-size:24px">Left Paragraph 3</p></span>
-            <span class="two para3"><p style="font-size:24px">Right Paragraph 3</p></span>
-
-            <span class="one para4"><p style="font-size:24px">Left Paragraph 4</p></span>
-            <span class="two para4"><p style="font-size:24px">Right Paragraph 4</p></span>
+            <code id="term">
+                
+            </code>
+            <code><a onclick="setCookie('ftv', '');window.location.reload();" id="restart" href="#" hidden>Restart</a></code>
             
         </article>
     </body>

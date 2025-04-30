@@ -1,7 +1,7 @@
 div.code {
     border: solid 1px black;
     border-radius: 5px;
-    padding: 5px;
+    padding: 1px;
     color: white;
     background-color: black;
     
@@ -10,4 +10,8 @@ pre, xmp {
     text-align: left;
     white-space: pre-wrap;
     background-color: rgb(95, 95, 95)
+}
+article {
+    padding-left: 10px;
+    padding-right: 10px;
 }

@@ -1,12 +1,16 @@
-.one, .two {
-    border: 1px red solid;
-}
-.full {
-    border: 1px lightgreen solid;
-}
 .navbar {
     border: 1px rgb(12, 194, 255) solid;
+    margin: 1px;
 }
 article {
     border: 1px yellow solid;
+    margin: 1px;
+}
+.div {
+    border: 1px red solid;
+    margin: 1px;
+}
+.code {
+    border: 1px green solid;
+    margin: 1px;
 }
