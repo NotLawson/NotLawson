@@ -58,7 +58,7 @@ function setCookie(name, value) {
 const term = document.getElementById("term")
 
 var SKIP;
-var ftv = getCookie("ftv");
+var ftv = getCookie("ftv-"+location.pathname);
 if (ftv==="") {
     SKIP = false;
     setCookie("ftv", "yes")
@@ -83,7 +83,7 @@ async function type(string) {
             } else {
                 term.innerHTML = term.innerHTML + string[i];
             }
-            await typesleep(30);
+            await typesleep(10);
         };
 }
 
@@ -105,7 +105,7 @@ async function link(link, text) {
     term.appendChild(link_element);
     for (let i = 0; i < text.length; i++) {
         link_element.innerHTML = link_element.innerHTML + text[i];
-        await typesleep(30);
+        await typesleep(10);
     };
 }
 
@@ -121,5 +121,23 @@ async function list(items) {
             await typesleep(30);
         };
         await typesleep(500)
+    };
+}
+
+async function heading(text) {
+    var heading_element = document.createElement("h1");
+    term.appendChild(heading_element);
+    for (let i = 0; i < text.length; i++) {
+        heading_element.innerHTML = heading_element.innerHTML + text[i];
+        await typesleep(10);
+    };
+}
+
+async function subheading(text) {
+    var heading_element = document.createElement("h2");
+    term.appendChild(heading_element);
+    for (let i = 0; i < text.length; i++) {
+        heading_element.innerHTML = heading_element.innerHTML + text[i];
+        await typesleep(30);
     };
 }

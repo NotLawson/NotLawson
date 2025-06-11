@@ -2,9 +2,7 @@
 <html lang="en">
     <head>
         <title>README.md - NotLawson</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="/assets/css/roboto.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
         <script src="/assets/js/main.js" defer></script>
@@ -18,8 +16,7 @@
         </div>
         <article>
             <code id="term"></code>
-            <code><a onclick="setCookie('ftv', '');window.location.reload();" id="restart" href="#" hidden>Restart</a></code>
-            
+            <code><a onclick="setCookie('ftv-'+location.pathname, '');window.location.reload();" id="restart" href="#" hidden>Restart</a></code>
         </article>
     </body>
 </html>
