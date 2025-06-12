@@ -7,6 +7,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
         <script src="/assets/js/main.js" defer></script>
+        <script src="/assets/js/assets.js" defer></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
     </head>
@@ -14,15 +15,9 @@
         <div class="navbar">
             <p><a class="navlink" href="/">Home</a> | <a class="navlink" href="/projects">Projects</a> | <a class="navlink selected" href="/assets">Assets</a></p>
         </div>
-        <h1 class="title">Assets</h1>
         <article>
-            <p>Here at thatrandompi.xyz, we like to show people around. So we made a file viewer.</p>
-            <p>From here, you can access all of the resources on used on this website.</p>
-            <p>To access the source of any page, just press <kbd>alt</kbd> + <kbd>f</kbd> and it will open the file viewer.</p>
-            <ul>
-                <li><a href="/assets/js">Javascript</a></li>
-                <li><a href="/assets/css">CSS</a></li>
-            </ul>
+            <code id="term"></code>
         </article>
+        <div id="assets" class="invisible"></div>
     </body>
 </html>

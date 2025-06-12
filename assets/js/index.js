@@ -1,47 +1,32 @@
 // Index animations
 async function typing_animation() {
-    //await typesleep(3000);
-    await type("|CONNECTING");
-    await type_speed(".......", 300);
-    await type("|")
-    await type("Connection Successful. ");
+    await heading("Home");
     await typesleep(500);
-    await type("Starting Transmission.")
-    await typesleep(100);
-    await type("||FROM: Lawson|TO: "+ip)
-    await type_speed("|---------------------------------------------|", 10);
+    await type("Welcome, "+ ip + ", to my personal website!|");
+    await type("I'm NotLawson, a 15-year-old student from Queensland, Australia.||");
     await typesleep(500);
-    await type("Hi there, "+ip+".||")
-    await type("My name is Lawson.||")
-    await typesleep(100);
-    await type("I'm a highschool student living in Australia. I have an interest programming in general, home automation, electronics and gaming (ofc). ")
-    await type("I have a ");
-    await link("https://youtube.com/notlawson", "Youtube");
-    await type(" channel, where I upload mostly gaming content, Rocket League and Helldivers 2.|| ")
+    await type("About me")
+    await type_speed(".....|", 100);
     await typesleep(500);
-    await type("What have I done so far? ");
-    await typesleep(300);
-    await type("Well, let's see:| ");
-    await list([
-        "I've won the 2024 Premiers Coding Challenge",
-        "I made a pretty nifty Rainfall tracker",
-        "I've had a lot of ideas",
-        "I made this website, I guess."
-    ]);
-    await type("|But yeah. Welcome to my website.|Don't worry, the rest of the website is better than this. Look, I'll even show you a nav bar.||");
-    await typesleep(1000);
-    document.getElementById("navbar").removeAttribute("hidden");
-    await typesleep(300);
-    await type("Tada!|| ");
-    await typesleep(300);
-    await type("Now, go check out my projects and abitions. The Assets page allows you to view the contents of each file used in this website, in case you want to replicate what I've done here.||")
-    await type("       - Lawson");
-    await type_speed("|---------------------------------------------|", 10);
-    await type("Transmission ended. Connection ended.|")
-    if (SKIP) {
-        await type("Do you want to view this animation again?|");
-        document.getElementById("restart").removeAttribute("hidden");
-    }
+    await type("Let's see. I enjoy coding, gaming, and learning new things.|");
+    await type("I started coding when I was around 10, and I know Python, JavaScript, and Arduino.|");
+    await type("I like messing around with electronics and home automation.|");
+    await type("I've been using Home Assistant for around 5 years now, and have quite a few funky automations.||");
+    await typesleep(500);
+    await type("I also enjoy gaming, especially Rocket League and Helldiver II.|");
+    await type("I upload semi-regularly to my ");
+    await link("https://www.youtube.com/@NotLawson", "YouTube channel");
+    await type(" and stream on ");
+    await link("https://www.twitch.tv/notlawson8129", "Twitch");
+    await type("|I also do some edits and stuff around the things I'm watching, like Arcane, which I also upload there.||");
+    await typesleep(500);
+    await type("I play Division 1 Basketball in my age group, and have a inter-school eSport Rocket League Championship.||");
+    await typesleep(500);
+    await type("Uhh, but that's about it really.|");
+    await typesleep(500);
+    await type("Check out my projects page to see some of the things I've made, and the assets page for some of the code that brings this page to life.||");
+    await typesleep(500);
+    await type("   - NotLawson");
 } 
 
 typing_animation();

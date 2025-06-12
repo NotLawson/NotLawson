@@ -1,0 +1,74 @@
+{
+    "js": [
+        {
+            "name": "main.js",
+            "type": "module",
+            "path": "/assets/js/main.js",
+            "desc": "The main JS file. This is used on all pages of the website."
+        },
+        {
+            "name": "file.js",
+            "type": "script",
+            "path": "/assets/js/file.js",
+            "desc": "The File Viewer JS file"
+        },
+        {
+            "name": "index.js",
+            "type": "script",
+            "path": "/assets/js/index.js",
+            "desc": "The Index Script. This is used to create the typing animation."
+        },
+        {
+            "name": "projects.js",
+            "type": "script",
+            "path": "/assets/js/projects.js",
+            "desc": "The Projects Script. This is used to create the typing animation on the projects page."
+        },
+        {
+            "name": "assets.js",
+            "type": "script",
+            "path":"/assets/js/assets.js",
+            "desc":"The Assets Script. This is used to create the typing animation on the assets page, aswell as loading the assets.json file."
+        }
+    ],
+    "css": [
+        {
+            "name": "main.css",
+            "type": "stylesheet",
+            "path": "/assets/css/main.css",
+            "desc": "The main CSS file. This is used on all pages of the website."
+        },
+        {
+            "name": "file.css",
+            "type": "stylesheet",
+            "path": "/assets/css/file.css",
+            "desc": "The File Viewer CSS file"
+        },
+        {
+            "name": "roboto.css",
+            "type": "font",
+            "path": "/assets/css/roboto.css",
+            "desc": "The Roboto Font CSS file. This is used to load the Roboto font from Google Fonts."
+        },
+        {
+            "name": "debug.css",
+            "type": "stylesheet",
+            "path": "/assets/css/debug.css",
+            "desc": "The Debug CSS file. This is used to style the page in a way that allows us to debug the formatting."
+        }
+    ],
+    "other": [
+        {
+            "name": "assets.json",
+            "type": "data",
+            "path": "/assets/assets.json",
+            "desc": "The Assets JSON file. This is used to load the assets on the assets page."
+        },
+        {
+            "name": "README.md",
+            "type": "markdown",
+            "path": "/README.md",
+            "desc": "The README file. This is used on my Github, but you'll be able to see it here."
+        }
+    ]
+}

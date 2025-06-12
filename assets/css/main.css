@@ -41,6 +41,10 @@ pre {
     margin-right: 100px;
 }
 
+a {
+    color: blue;
+}
+
 .navlink {
     color: white;
     text-decoration: none;
@@ -73,7 +77,7 @@ pre {
     opacity: 1;
     animation: fadeIn 0.5s ease-in-out;
 }
-.projects {
+.projects, #assets {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -109,6 +113,9 @@ pre {
 /* Mobile */
 @media (max-width: 768px) {
     .projects {
+        grid-template-columns: 1fr;
+    }
+    #assets {
         grid-template-columns: 1fr;
     }
 }
