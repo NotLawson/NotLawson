@@ -11,6 +11,9 @@ document.addEventListener('keydown', function (event) {
         event.preventDefault();
         console.log("opening in file viewer");
         window.location.href = "/file_viewer?file="+window.location.pathname;
+    } else if (event.key == "s") {
+        SKIP = true;
+        setCookie("ftv", "yes");
     }
 })
 
@@ -70,7 +73,7 @@ async function typesleep(ms) {
     if (SKIP===false) {
         await new Promise(r => setTimeout(r, ms));
     } else {
-
+        await new Promise(r => r()); // Skip sleep if SKIP is true
     }
     
 }
