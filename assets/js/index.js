@@ -2,7 +2,7 @@
 async function typing_animation() {
     await typesleep(1000);
     var greeting = ["Hello", "Hiya", "Welcome", "Greetings", "你好", "こんにちは", "Bonjour", "Haileo", "Ciao", "Witam", "Hola", "Salutamu"][Math.random() * 12 | 0];
-    await heading(greeting + ", " + ip + ", to my personal website!|");
+    await heading(greeting + ", " + ip + ", to my personal website!");
     await typesleep("I'm NotLawson, a 15-year-old student from Queensland, Australia.||");
     await typesleep(500);
     await type("About me")
