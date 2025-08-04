@@ -5,7 +5,7 @@
 // Sleep Function
 async function sleep(ms) {await new Promise(r => setTimeout(r, ms))}
 
-// File Viewer shortcut
+// Shortcuts
 document.addEventListener('keydown', function (event) {
     if (event.altKey && event.key === 'f') {
         event.preventDefault();
