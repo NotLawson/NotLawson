@@ -1,5 +1,5 @@
 // Main Javascript file. Contains helpers and functions for all pages
-
+var ready = false;
 //// General Helpers
 
 // Sleep Function
@@ -144,3 +144,5 @@ async function subheading(text) {
         await typesleep(30);
     };
 }
+
+ready = true;
