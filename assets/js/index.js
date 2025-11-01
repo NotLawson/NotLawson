@@ -35,5 +35,5 @@ async function typing_animation() {
     await type("||(top tip: press 's' to skip the animations on any page.)|")
 } 
 
-while (ip === null || !ready) {};
+while (ip === null) {}; // wait for IP
 typing_animation();
