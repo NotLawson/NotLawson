@@ -20,7 +20,7 @@ document.addEventListener('keydown', function (event) {
 // IP Grabber
 var ip;
 async function iploader() {await fetch('https://api.ipify.org?format=json').then(response => response.json()).then(data => {ip = data.ip;});console.log("Your IP is: "+ip);}
-iploader();
+//iploader();
 
 // Param Reader
 const urlParams = new URLSearchParams(window.location.search);
