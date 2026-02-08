@@ -9,10 +9,6 @@ I am currently a highschool student down under, and have a few of my school proj
 I don't just focus on school however; I <b><i>love</b></i> to play Helldivers 2 and Rocket League, winning our interschool esport tournament for the latter. I have a [Tubeyou channel](https://youtube.com/@NotLawson)
 I know my way around a motherboard, dabble with electronics and obsess over home automation.
 
-I also play basketball, and am pretty good at it if I do say so myself. I mean, it doesn't hurt that I'm 6ft2 🙃
-
 Have a project you want a hand with? I (might be) your guy. Hit me up on Discord at <b>@NotLawson</b>, or shoot me an email on [lawson.conallin@gmail.com](mailto:lawson.conallin@gmail.com).
 
-Have a good morning/day/afternoon/evening/night/<b><i>GOD MAN, GO TO SLEEP!</b>
-
-#### Lawson 😉
+#### ~ Lawson 😉
